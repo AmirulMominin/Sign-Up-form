@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #344a72;
+    font-family: 'Raleway', sans-serif;
+}
+.formcontainer {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    max-width:450px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+
+}
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding:10px
+    
+}
+
+input[type=text], input[type=password], input[type="email"] {
+    border: 1px solid black;
+    
+}
+
+
+input[type=button] {
+    margin-top: 15px;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #49c1a2;
+    color: white;
+    margin-bottom: 10px;
+}
+input[type=button]:hover{
+    cursor:pointer;
+}
+.formcontainer p {
+    
+  font-size: 1.2rem;
+  text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3px;
+}
+.content p {
+
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.content a {
+    text-decoration: none;
+}
+.footer {
+    max-width: 450px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+} 
+.footer a{
+    color: greenyellow;
+    
+} 
+a {
+    text-decoration: none;
+}
